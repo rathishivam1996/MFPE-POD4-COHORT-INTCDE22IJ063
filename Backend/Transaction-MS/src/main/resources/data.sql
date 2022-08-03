@@ -1,0 +1,2 @@
+INSERT INTO TRANSACTION(id, source_Account_Id,source_Owner_Name,target_Account_Id,target_Owner_Name,amount,initiation_Date,reference)
+VALUES (1, 1000000001,'shivam', 1000000002, 'harshit', 100.00, '2022-05-07 10:30', 'transfer');

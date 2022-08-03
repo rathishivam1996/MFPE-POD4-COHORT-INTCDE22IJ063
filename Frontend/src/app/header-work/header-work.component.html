@@ -1,0 +1,14 @@
+<div class="sticky-top d-flex align-content-center" style="background-color: rgba(233, 233, 121, 0.873);">
+  <a href="/" class="active nav-link text-white">
+    <h1 style="font-weight: 900; color: rgb(29, 124, 206); padding: 10px;">Origin Bank</h1>
+  </a>
+  <ul class="align-content-center container nav nav-pills justify-content-end">
+    <li class="nav-item"><a class="nav-link active" routerLink="/employeedashboard" class="btn btn-outline-light"
+        style="margin-right: 15px;" *ngIf="!val">Home
+      </a>
+    </li>
+    <li class="nav-item"><a class="nav-link active" class="btn btn-danger btn-outline-light" routerLink="/" *ngIf="val">Logout
+      </a>
+    </li>
+  </ul>
+</div>
